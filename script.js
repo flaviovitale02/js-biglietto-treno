@@ -17,9 +17,6 @@ const sconto40 = 40
 
 const priceKm = 0.21
 
-let num = 5.56789;
-let n = num.toFixed();
-
 const price = (chilometri * priceKm);
 let newPrice = price.toFixed(2)
 console.log (newPrice)
